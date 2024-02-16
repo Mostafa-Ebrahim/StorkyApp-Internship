@@ -1,0 +1,234 @@
+body {
+  background-color: #eee;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 12pt;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#page {
+  position: relative;
+}
+
+section {
+  display: block;
+}
+
+h2 {
+  margin: 0;
+}
+
+div {
+  display: block;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  align-self: flex-start;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  min-height: 75px;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eee;
+}
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  background-color: #eee;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-end;
+}
+
+#navbar ul {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#img-logo {
+  width: 300px;
+  padding-right: 50px;
+}
+
+#landingPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+}
+
+#form input {
+  height: 30px;
+  width: 75%;
+  margin-top: 10px;
+  font-size: 1em;
+  border: 0;
+  color: #333;
+  text-align: center;
+}
+
+.btn {
+  height: 40px;
+  width: 150px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  cursor: pointer;
+  max-width: 150px;
+  border: 0;
+  background-color: #f1c40f;
+}
+
+.container {
+  max-width: 800px;
+}
+
+#features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#features .description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  font-size: 1.1em;
+  height: 125px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon img {
+  width: 75%;
+}
+
+#how-it-works > iframe {
+  width: 80%;
+  height: 350px;
+  margin-top: 50px;
+}
+
+#pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 33%;
+  height: 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+.cardhead {
+  background-color: #e2e2e2;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1em;
+  font-weight: 800;
+  color: #333;
+}
+
+.card > p {
+  margin: 20px;
+}
+
+.card > button {
+  margin: 20px;
+}
+
+footer {
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+}
+
+footer > ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer > ul > li {
+  padding: 0 10px;
+}
+
+footer > span {
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #444;
+}
+
+@media (max-width: 900px) {
+  header {
+    flex-wrap: wrap;
+  }
+  #navbar {
+    padding-right: 0px;
+    justify-content: center;
+  }
+  #img-logo {
+    margin-top: 15px;
+    width: 70%;
+    position: relative;
+  }
+  .container {
+    max-width: 85%;
+  }
+  .card{
+    width: 30%;
+  }
+}

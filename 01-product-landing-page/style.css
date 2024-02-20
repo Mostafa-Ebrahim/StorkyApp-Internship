@@ -97,10 +97,10 @@ header {
 }
 
 .btn {
-  height: 40px;
+  height: 30px;
   width: 150px;
   font-size: 1em;
-  font-weight: 900;
+  font-weight: 800;
   text-transform: uppercase;
   cursor: pointer;
   max-width: 150px;
@@ -117,7 +117,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 10vmax;
 }
 
 #features .description {
@@ -144,7 +144,7 @@ header {
 }
 
 #how-it-works > iframe {
-  width: 80%;
+  width: 85%;
   height: 350px;
   margin-top: 50px;
 }
@@ -163,7 +163,7 @@ header {
   align-items: center;
   text-align: center;
   width: 33%;
-  height: 300px;
+  height: 25%;
   margin: 10px;
   padding: 10px;
   border: 1px solid #000;
@@ -225,10 +225,32 @@ footer > span {
     width: 70%;
     position: relative;
   }
+  .grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: inherit;
+    padding-bottom: 1vmax;
+  }
+  #how-it-works > iframe {
+    height: 200px;
+  }
   .container {
     max-width: 85%;
   }
-  .card{
+  .cardhead {
+    font-size: 80%;
+  }
+  .card {
     width: 30%;
+    height: 20%;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #000;
+  }
+  .btn {
+    width: 80%;
+    font-size: 0.75em;
   }
 }
